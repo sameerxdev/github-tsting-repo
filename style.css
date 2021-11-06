@@ -1,0 +1,101 @@
+body {
+  padding: 0%;
+  margin: 0%;
+  background: rgb(99, 209, 215);
+  background: linear-gradient(
+    90deg,
+    rgba(99, 209, 215, 1) 0%,
+    rgba(234, 251, 250, 1) 100%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+h1 {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  color: black;
+}
+h3 {
+  text-align: center;
+}
+#main {
+  display: inline;
+}
+#side {
+  height: 100%;
+  width: 10%;
+  float: left;
+  margin: 5% 2%;
+  padding: 1%;
+}
+li.home {
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  list-style-type: none;
+}
+#centre {
+  width: 82%;
+  float: right;
+}
+#mainImage {
+  object-fit: fill;
+  height: 300px;
+  width: 25%;
+  border-radius: 25%;
+  margin: 0% 37.5% 0% 27.5%;
+}
+.text {
+  margin-top: 4%;
+  font-size: large;
+  font-weight: bold;
+  color: black;
+  margin: 2% 31.5% 0% 13.5%;
+}
+.writer {
+  color: black;
+  margin: 1% 1.5% 0% 33.5%;
+}
+.list {
+  font-weight: bold;
+  padding: 1%;
+  font-size: x-large;
+}
+.row,
+.col-3 {
+  border: 2px solid black;
+}
+.experiences {
+  padding: 2% 5%;
+}
+#exp {
+  float: left;
+  width: 50%;
+  padding: 2% 5%;
+}
+#expImg {
+  float: right;
+  width: 50%;
+  align-items: center;
+}
+.expImg {
+  height: 15%;
+  width: 50%;
+  padding: 5% 5%;
+  margin: 0% 15%;
+}
+#hob {
+  padding: 2% 5%;
+}
+.hobbyImg {
+  width: 40%;
+  margin: 0% 20%;
+}
+#fsp {
+  text-align: center;
+  padding: 2%;
+}
+.fspImg {
+  width: 20%;
+  margin: 2% 20%;
+}
